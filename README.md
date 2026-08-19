@@ -297,9 +297,9 @@ npm run build
 
 A huge thank you to the brilliant minds helping to build and maintain Cerebra! 
 
-1. https://github.com/pcabdur - Abdur Rahman .M.R
-2. https://github.com/Daran29 - Daran K
-3. [ Add Contributor 3 here ]
+1. Abdur Rahman .M.R   -      https://github.com/pcabdur
+2. Daran K             -      https://github.com/Daran29
+3. Balamurugan B       -      https://github.com/growwithbalamurugan 
 4. [ Add Contributor 4 here ]
 5. [ Add Contributor 5 here ]
 6. [ Add Contributor 6 here ]
