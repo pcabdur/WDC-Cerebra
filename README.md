@@ -6,7 +6,6 @@
 [![Three.js](https://img.shields.io/badge/Three.js-0.185-black?logo=threedotjs&logoColor=white)](https://threejs.org/)
 [![Accuracy](https://img.shields.io/badge/Val_Accuracy-97.5%25-brightgreen)](file:///checkpoints/best_efficientnetb0.pth)
 [![AWS Ready](https://img.shields.io/badge/AWS-Terraform_Ready-FF9900?logo=amazonaws&logoColor=white)](file:///terraform/)
-[![CI Pipeline](https://github.com/pcabdur/WDC-Cerebra/actions/workflows/ci.yml/badge.svg)](https://github.com/pcabdur/WDC-Cerebra/actions/workflows/ci.yml)
 
 > **Full-Stack Clinical Decision Support & Deep Learning Platform**  
 > End-to-end multi-class Brain MRI classification (`Glioma`, `Meningioma`, `No Tumor`, `Pituitary`) powered by **EfficientNet-B0**, real-time **Explainable AI (Grad-CAM, LIME, SHAP)**, interactive **Three.js 3D Brain Mapping**, and automated **Institutional PDF Report Generation**.
