@@ -4,7 +4,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![Three.js](https://img.shields.io/badge/Three.js-0.185-black?logo=threedotjs&logoColor=white)](https://threejs.org/)
-[![Accuracy](https://img.shields.io/badge/Val_Accuracy-99.52%25-brightgreen)](file:///checkpoints/best_efficientnetb0.pth)
+[![Accuracy](https://img.shields.io/badge/Val_Accuracy-97.5%25-brightgreen)](file:///checkpoints/best_efficientnetb0.pth)
 [![AWS Ready](https://img.shields.io/badge/AWS-Terraform_Ready-FF9900?logo=amazonaws&logoColor=white)](file:///terraform/)
 [![CI Pipeline](https://github.com/pcabdur/WDC-Cerebra/actions/workflows/ci.yml/badge.svg)](https://github.com/pcabdur/WDC-Cerebra/actions/workflows/ci.yml)
 
@@ -16,7 +16,7 @@
 ## 📌 Executive Summary
 
 **Cerebra** combines computer vision, deep convolutional neural networks, and multi-perspective interpretability into a clinical-grade web platform:
-1. **Accurate Classification:** Achieves **99.52% Validation Accuracy** across 7,200 curated MRI scans with sub-25ms inference latency.
+1. **Accurate Classification:** Achieves **97.5% Validation Accuracy** across 7,200 curated MRI scans with sub-25ms inference latency.
 2. **Deterministic Preprocessing:** 6-stage medical image standardization (Contour Brain ROI Extraction, 3×3 Median Denoising, CIELAB L\* CLAHE contrast adjustment, and ImageNet normalization).
 3. **Live Model Transparency Dashboard:** Multi-view Grad-CAM studio (Alpha Slider 0–100%, Pure Heatmap, Hotspot Spotlight, Split Compare), Preprocessing Transformation Flow, LIME superpixels, and SHAP pixel-level marginal attributions.
 4. **Interactive 3D Anatomical Projection:** Dynamic Three.js brain mesh highlighting tumor coordinates and lobe attributions.
@@ -88,7 +88,7 @@ Brain Tumor Cerebra Project/
 │   └── terraform.tfvars.example     # Customization template
 │
 ├── checkpoints/
-│   └── best_efficientnetb0.pth      # Trained EfficientNet-B0 model checkpoint (99.52% Val Acc)
+│   └── best_efficientnetb0.pth      # Trained EfficientNet-B0 model checkpoint (97.5% Val Acc)
 │
 ├── samples/                         # Real MRI test scans for immediate evaluation
 │   ├── glioma_sample.jpg
@@ -114,7 +114,7 @@ Brain Tumor Cerebra Project/
 
 ### 1. 🔬 Deep Learning & Computer Vision Engine
 - **Backbone Architecture:** Compound-scaled `EfficientNet-B0` with regularized classification head ($\text{Dropout}(0.3) \to \text{Linear}(1280, 4)$).
-- **Benchmark Performance:** **99.52% Validation Accuracy** across 7,200 curated MRI scans.
+- **Benchmark Performance:** **97.5% Validation Accuracy** across 7,200 curated MRI scans.
 - **Authoritative 6-Stage Preprocessing Pipeline:**
   1. *Contour-Based Brain ROI Extraction* (Otsu thresholding crops ~50% empty air space with a 3px safety margin).
   2. *3×3 Median Denoising* (suppresses high-frequency scanner noise while preserving tissue edges).
